@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.game-container {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+canvas {
+    border: 1px solid #000;
+    background-color: #eee;
+}
+
+#restartButton {
+    padding: 10px 20px;
+    background-color: #6200ea;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#restartButton:hover {
+    background-color: #3700b3;
+}
